@@ -1,0 +1,27 @@
+ * Variables:
+             Son datos que almacenamos con un nombre y un valor en especifico para así usarlo más tarde.
+
+ * Strings:
+           Este es un valor que siempre son palabras (caracteres), que van entre comillas simples o dobles ("hola").
+
+
+
+ * Funciones (argumentos, `return`):
+                                    Las Funciones nos permiten agrupar codigo, se invoca "Function" el nombre que
+    queremos y parentesis ( Function nombre () ). 
+
+      Los argumentos se declaran dentro de los parentecis y toman un valor.
+
+      Y Return lo usamos para que nos devueva algo y termine ahi.
+
+
+
+ * Declaraciones `if`:
+                      Se usa para comparar datos,y cundo los compra, nos devuelve un valor blooleano.
+
+
+
+ * Valores booleanos (`true`, `false`):
+                                       Los valores Blooeanos True y False, simplemente significa Verdadero o Falso,
+     Si o No
+ 
