@@ -95,6 +95,12 @@ function promedioResultadosTest(resultadosTest) {
     // "resultadosTest" debe ser una matriz de enteros (int/integers)
     // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
     // Tu código:
+    let res = 0
+
+    for (let nums of resultadosTest) {
+        res += nums
+    }
+    return res / resultadosTest.length
 }
 
 function numeroMasGrande(numeros) {
@@ -217,6 +223,19 @@ function breakStatement(numero) {
     //devolver: "Se interrumpió la ejecución"
     //Pista: usá el statement 'break '
     // Tu código:
+    const nuevosValores = []
+    let suma = numero
+
+    for (let i = 0; i < 10; i++) {
+        suma += 2
+        nuevosValores.push(suma)
+
+        if (suma === i) {
+            return 'Se interrumpió la ejecución'
+        }
+    }
+
+    return nuevosValores
 }
 
 function continueStatement(numero) {
@@ -226,6 +245,18 @@ function continueStatement(numero) {
     //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
     //Pista: usá el statement 'continue'
     // Tu código:
+    const nuevosValores = []
+
+    for (let i = 0; i < 10; i++) {
+        if (i === 5) {
+            continue
+        }
+
+        numero += 2
+        nuevosValores.push(numero)
+    }
+
+    return nuevosValores
 }
 
 // No modificar nada debajo de esta línea
