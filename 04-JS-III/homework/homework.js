@@ -215,7 +215,7 @@ function breakStatement(numero) {
     //Devolver el array
     //Si en algún momento el valor de la suma y la cantidad de iteraciones coinciden, debe interrumpirse la ejecución y
     //devolver: "Se interrumpió la ejecución"
-    //Pista: usá el statement 'break'
+    //Pista: usá el statement 'break '
     // Tu código:
 }
 
@@ -229,7 +229,7 @@ function continueStatement(numero) {
 }
 
 // No modificar nada debajo de esta línea
-// --------------------------------
+// ---------------------------------------
 
 module.exports = {
     devolverPrimerElemento,
