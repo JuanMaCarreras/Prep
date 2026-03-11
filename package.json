@@ -28,6 +28,6 @@
     "henry-reading-time": "https://d31uz8lwfmyn8g.cloudfront.net/Modules/henry-reading-time-0.1.0.tgz",
     "markdown-it-anchor": "^8.4.1",
     "markdown-it-highlightjs": "^3.5.0",
-    "simple-git": "^3.24.0"
+    "simple-git": "^3.32.3"
   }
 }
